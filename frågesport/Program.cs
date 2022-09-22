@@ -82,4 +82,15 @@ else
 // -----------------------------------------------------------------------------
 
 Console.WriteLine($"Nu är frågesporten över, du fick {points} poäng");
+
+
+if (points < 1)
+{
+    Console.WriteLine("Wtf, vem är du ens. Även en blind apa hade gissat bättre än dig. I bet you smell :/");
+}
+
+else
+{
+    Console.WriteLine("Tack för att du spelade, i guess...");
+}
 Console.ReadLine();
